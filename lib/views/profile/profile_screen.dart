@@ -1,0 +1,40 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_arch/viewmodels/profile/profile_viewmodel.dart';
+import 'package:provider/provider.dart';
+
+class ProfileScreen extends StatefulWidget {
+  @override
+  State<ProfileScreen> createState() => _ProfileScreenState();
+}
+
+class _ProfileScreenState extends State<ProfileScreen> {
+  var viewModel = ProfileViewModel();
+  var modelData = ProfileViewModel();
+
+  @override
+  void initState() {
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) => viewModel.initViewModel());
+    super.initState();
+  }
+
+  @override
+  void didChangeDependencies() {
+    viewModel = Provider.of<ProfileViewModel>(context, listen: false);
+    modelData = Provider.of<ProfileViewModel>(context);
+    super.didChangeDependencies();
+  }
+
+  @override
+  void dispose() {
+    viewModel.disposeViewModel();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(),
+      body: Container(),
+    );
+  }
+}

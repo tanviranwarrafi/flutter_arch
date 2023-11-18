@@ -1,0 +1,50 @@
+name: flutter_arch
+description: Flutter Architecture Application
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  lottie: ^2.7.0
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  pin_code_fields: ^8.0.1
+
+  fluttertoast: ^8.2.4
+  another_flushbar: ^1.12.30
+
+  flutter_udid: ^2.0.1
+  new_version_plus: ^0.0.11
+  device_info_plus: ^9.1.0
+
+  image_picker: ^1.0.4
+  image_cropper: ^5.0.0
+  flutter_image_compress: ^2.1.0
+
+  intl: ^0.18.1
+  http: ^1.1.0
+  get_it: ^7.6.4
+  provider: ^6.1.1
+  get_storage: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  import_sorter: ^4.6.0
+  flutter_lints: ^3.0.1
+
+import_sorter:
+  emojis: true
+  comments: false
+  ignored_files:
+    - \/test\/*
+
+flutter:
+  uses-material-design: true
