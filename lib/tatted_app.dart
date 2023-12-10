@@ -1,7 +1,7 @@
+import 'package:app/themes/light_theme.dart';
+import 'package:app/utils/keys.dart';
+import 'package:app/views/auth/sign_in_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_arch/themes/light_theme.dart';
-import 'package:flutter_arch/utils/keys.dart';
-import 'package:flutter_arch/views/auth/sign_in_screen.dart';
 
 class TattedApp extends StatefulWidget {
   @override

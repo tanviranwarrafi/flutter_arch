@@ -1,10 +1,10 @@
+import 'package:app/constants/colors.dart';
+import 'package:app/di.dart';
+import 'package:app/extensions/number_ext.dart';
+import 'package:app/library_widgets/svg_image.dart';
+import 'package:app/utils/size_config.dart';
+import 'package:app/utils/text_styles.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_arch/constants/colors.dart';
-import 'package:flutter_arch/di.dart';
-import 'package:flutter_arch/extensions/number_ext.dart';
-import 'package:flutter_arch/library_widgets/svg_image.dart';
-import 'package:flutter_arch/utils/size_config.dart';
-import 'package:flutter_arch/utils/text_styles.dart';
 
 class NoSupportView extends StatelessWidget {
   @override

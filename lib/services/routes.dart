@@ -1,9 +1,9 @@
+import 'package:app/views/auth/sign_in_screen.dart';
+import 'package:app/views/auth/sign_up_screen.dart';
+import 'package:app/views/home/home_screen.dart';
+import 'package:app/views/profile/edit_profile_screen.dart';
+import 'package:app/views/profile/profile_screen.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_arch/views/auth/sign_in_screen.dart';
-import 'package:flutter_arch/views/auth/sign_up_screen.dart';
-import 'package:flutter_arch/views/home/home_screen.dart';
-import 'package:flutter_arch/views/profile/edit_profile_screen.dart';
-import 'package:flutter_arch/views/profile/profile_screen.dart';
 
 class Routes {
   // Auth

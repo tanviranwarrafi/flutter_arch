@@ -1,6 +1,6 @@
+import 'package:app/constants/colors.dart';
+import 'package:app/library_widgets/svg_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_arch/constants/colors.dart';
-import 'package:flutter_arch/library_widgets/svg_image.dart';
 
 class SuffixBox extends StatelessWidget {
   final String icon;

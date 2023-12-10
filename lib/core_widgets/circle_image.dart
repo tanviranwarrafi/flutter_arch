@@ -1,8 +1,8 @@
 import 'dart:core';
 
+import 'package:app/constants/colors.dart';
+import 'package:app/library_widgets/image_network.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_arch/constants/colors.dart';
-import 'package:flutter_arch/library_widgets/image_network.dart';
 
 class CircleImage extends StatelessWidget {
   final Function()? onTap;

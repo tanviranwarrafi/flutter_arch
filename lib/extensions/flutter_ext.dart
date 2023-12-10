@@ -1,5 +1,5 @@
+import 'package:app/utils/keys.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_arch/utils/keys.dart';
 
 extension FlutterExtensions on void {
   void minimizeKeyboard() {

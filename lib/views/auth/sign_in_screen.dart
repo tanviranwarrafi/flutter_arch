@@ -1,11 +1,11 @@
+import 'package:app/components/app_loaders/screen_loader.dart';
+import 'package:app/constants/colors.dart';
+import 'package:app/core_widgets/input_field.dart';
+import 'package:app/di.dart';
+import 'package:app/utils/size_config.dart';
+import 'package:app/utils/text_styles.dart';
+import 'package:app/viewmodels/auth/sign_in_viewmodel.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_arch/components/app_loaders/screen_loader.dart';
-import 'package:flutter_arch/constants/colors.dart';
-import 'package:flutter_arch/core_widgets/input_field.dart';
-import 'package:flutter_arch/di.dart';
-import 'package:flutter_arch/utils/size_config.dart';
-import 'package:flutter_arch/utils/text_styles.dart';
-import 'package:flutter_arch/viewmodels/auth/sign_in_viewmodel.dart';
 import 'package:provider/provider.dart';
 
 class SignInScreen extends StatefulWidget {

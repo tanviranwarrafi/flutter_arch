@@ -1,5 +1,5 @@
+import 'package:app/viewmodels/profile/edit_profile_viewmodel.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_arch/viewmodels/profile/edit_profile_viewmodel.dart';
 import 'package:provider/provider.dart';
 
 class EditProfileScreen extends StatefulWidget {

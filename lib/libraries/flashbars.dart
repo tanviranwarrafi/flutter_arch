@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:another_flushbar/flushbar.dart';
+import 'package:app/constants/colors.dart';
+import 'package:app/utils/keys.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_arch/constants/colors.dart';
-import 'package:flutter_arch/utils/keys.dart';
 
 class FlashBars {
   void warningMessage({required String message}) {

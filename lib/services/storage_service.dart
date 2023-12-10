@@ -1,7 +1,7 @@
-import 'package:flutter_arch/constants/storage_keys.dart';
-import 'package:flutter_arch/di.dart';
-import 'package:flutter_arch/libraries/loacl_storage.dart';
-import 'package:flutter_arch/models/dummy/language.dart';
+import 'package:app/constants/storage_keys.dart';
+import 'package:app/di.dart';
+import 'package:app/libraries/loacl_storage.dart';
+import 'package:app/models/dummy/language.dart';
 
 class StorageService {
   var storage = sl<LocalStorage>();

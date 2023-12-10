@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:app/enum/enums.dart';
+import 'package:app/interceptors/api_interceptor.dart';
+import 'package:app/models/dummy/api_response.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_arch/enum/enums.dart';
-import 'package:flutter_arch/interceptors/api_interceptor.dart';
-import 'package:flutter_arch/models/dummy/api_response.dart';
 import 'package:http/http.dart' as http;
 
 const _200 = 200;

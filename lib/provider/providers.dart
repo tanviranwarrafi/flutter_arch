@@ -1,8 +1,8 @@
-import 'package:flutter_arch/viewmodels/auth/sign_in_viewmodel.dart';
-import 'package:flutter_arch/viewmodels/auth/sign_up_viewmodel.dart';
-import 'package:flutter_arch/viewmodels/global_viewmodel.dart';
-import 'package:flutter_arch/viewmodels/profile/edit_profile_viewmodel.dart';
-import 'package:flutter_arch/viewmodels/profile/profile_viewmodel.dart';
+import 'package:app/viewmodels/auth/sign_in_viewmodel.dart';
+import 'package:app/viewmodels/auth/sign_up_viewmodel.dart';
+import 'package:app/viewmodels/global_viewmodel.dart';
+import 'package:app/viewmodels/profile/edit_profile_viewmodel.dart';
+import 'package:app/viewmodels/profile/profile_viewmodel.dart';
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart' show SingleChildWidget;
 

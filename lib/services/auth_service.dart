@@ -1,9 +1,9 @@
-import 'package:flutter_arch/constants/storage_keys.dart';
-import 'package:flutter_arch/di.dart';
-import 'package:flutter_arch/implementations/http_module.dart';
-import 'package:flutter_arch/libraries/loacl_storage.dart';
-import 'package:flutter_arch/services/storage_service.dart';
-import 'package:flutter_arch/utils/keys.dart';
+import 'package:app/constants/storage_keys.dart';
+import 'package:app/di.dart';
+import 'package:app/implementations/http_module.dart';
+import 'package:app/libraries/loacl_storage.dart';
+import 'package:app/services/storage_service.dart';
+import 'package:app/utils/keys.dart';
 
 class AuthService {
   bool get authStatus => sl<StorageService>().authStatus;

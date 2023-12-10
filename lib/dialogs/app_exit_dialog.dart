@@ -1,16 +1,16 @@
 import 'dart:io' as platform;
 
+import 'package:app/constants/app_constants.dart';
+import 'package:app/constants/colors.dart';
+import 'package:app/constants/shadows.dart';
+import 'package:app/di.dart';
+import 'package:app/extensions/route_ext.dart';
+import 'package:app/utils/default_config.dart';
+import 'package:app/utils/keys.dart';
+import 'package:app/utils/text_styles.dart';
+import 'package:app/utils/transitions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_arch/constants/app_constants.dart';
-import 'package:flutter_arch/constants/colors.dart';
-import 'package:flutter_arch/constants/shadows.dart';
-import 'package:flutter_arch/di.dart';
-import 'package:flutter_arch/extensions/route_ext.dart';
-import 'package:flutter_arch/utils/default_config.dart';
-import 'package:flutter_arch/utils/keys.dart';
-import 'package:flutter_arch/utils/text_styles.dart';
-import 'package:flutter_arch/utils/transitions.dart';
 
 dynamic appExitDialog() async {
   final context = navigatorKey.currentState!.context;

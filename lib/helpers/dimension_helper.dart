@@ -1,6 +1,6 @@
-import 'package:flutter_arch/models/dummy/dimension.dart';
-import 'package:flutter_arch/utils/keys.dart';
-import 'package:flutter_arch/utils/size_config.dart';
+import 'package:app/models/dummy/dimension.dart';
+import 'package:app/utils/keys.dart';
+import 'package:app/utils/size_config.dart';
 
 class DimensionHelper {
   double dimensionSizer(Dimension dimension) {

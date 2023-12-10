@@ -1,11 +1,11 @@
 import 'dart:io';
 
+import 'package:app/provider/providers.dart';
+import 'package:app/screen_craft.dart';
+import 'package:app/services/http_overrides.dart';
+import 'package:app/tatted_app.dart';
+import 'package:app/utils/default_config.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_arch/provider/providers.dart';
-import 'package:flutter_arch/screen_craft.dart';
-import 'package:flutter_arch/services/http_overrides.dart';
-import 'package:flutter_arch/tatted_app.dart';
-import 'package:flutter_arch/utils/default_config.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:provider/provider.dart';
 

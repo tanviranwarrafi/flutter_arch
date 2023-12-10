@@ -1,4 +1,4 @@
-import 'package:flutter_arch/utils/size_config.dart';
+import 'package:app/utils/size_config.dart';
 
 extension NumberExt on num {
   double get height => this * (SizeConfig.height / 100);

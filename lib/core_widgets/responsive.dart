@@ -1,5 +1,5 @@
+import 'package:app/core_widgets/no_support_view.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_arch/core_widgets/no_support_view.dart';
 
 class Responsive extends StatelessWidget {
   final Widget mobile;

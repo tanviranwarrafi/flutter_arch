@@ -1,8 +1,8 @@
 import 'dart:async';
 
+import 'package:app/di.dart';
+import 'package:app/repositories/auth_repo.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_arch/di.dart';
-import 'package:flutter_arch/repositories/auth_repo.dart';
 
 class SignInViewModel with ChangeNotifier {
   var loader = false;

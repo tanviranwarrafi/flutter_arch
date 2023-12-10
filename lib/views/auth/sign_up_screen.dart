@@ -1,5 +1,5 @@
+import 'package:app/viewmodels/auth/sign_up_viewmodel.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_arch/viewmodels/auth/sign_up_viewmodel.dart';
 import 'package:provider/provider.dart';
 
 class SignUpScreen extends StatefulWidget {

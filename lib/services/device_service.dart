@@ -1,7 +1,7 @@
 import 'dart:io' as io;
 
-import 'package:flutter_arch/di.dart';
-import 'package:flutter_arch/libraries/device_info.dart';
+import 'package:app/di.dart';
+import 'package:app/libraries/device_info.dart';
 
 class DeviceService {
   Future<String?> deviceId() => sl<DeviceInformation>().deviceId();

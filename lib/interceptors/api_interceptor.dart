@@ -1,5 +1,5 @@
-import 'package:flutter_arch/enum/enums.dart';
-import 'package:flutter_arch/models/dummy/api_response.dart';
+import 'package:app/enum/enums.dart';
+import 'package:app/models/dummy/api_response.dart';
 
 abstract class ApiInterceptor {
   Future<ApiResponse> getRequest({required String endPoint, required Header header});

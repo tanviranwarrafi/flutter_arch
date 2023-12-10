@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:flutter_arch/constants/colors.dart';
+import 'package:app/constants/colors.dart';
 import 'package:image_cropper/image_cropper.dart';
 
 const _aspectRatio = CropAspectRatio(ratioX: 1000, ratioY: 1000);

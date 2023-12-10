@@ -1,5 +1,5 @@
+import 'package:app/utils/size_config.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_arch/utils/size_config.dart';
 
 class NavButtonBox extends StatelessWidget {
   final bool loader;

@@ -1,5 +1,5 @@
-import 'package:flutter_arch/extensions/datetime_ext.dart';
-import 'package:flutter_arch/extensions/string_ext.dart';
+import 'package:app/extensions/datetime_ext.dart';
+import 'package:app/extensions/string_ext.dart';
 import 'package:intl/intl.dart';
 
 class Formatters {

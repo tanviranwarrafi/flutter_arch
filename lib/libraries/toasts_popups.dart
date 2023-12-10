@@ -1,4 +1,4 @@
-import 'package:flutter_arch/constants/colors.dart';
+import 'package:app/constants/colors.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class ToastPopup {

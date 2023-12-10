@@ -1,7 +1,7 @@
+import 'package:app/constants/data_constants.dart';
+import 'package:app/extensions/route_ext.dart';
+import 'package:app/utils/keys.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_arch/constants/data_constants.dart';
-import 'package:flutter_arch/extensions/route_ext.dart';
-import 'package:flutter_arch/utils/keys.dart';
 import 'package:new_version_plus/new_version_plus.dart';
 
 class AppUpdater {

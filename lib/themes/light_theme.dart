@@ -1,12 +1,12 @@
+import 'package:app/constants/colors.dart';
+import 'package:app/constants/fonts.dart';
+import 'package:app/di.dart';
+import 'package:app/helpers/dimension_helper.dart';
+import 'package:app/models/dummy/dimension.dart';
+import 'package:app/utils/default_config.dart';
+import 'package:app/utils/size_config.dart';
+import 'package:app/utils/text_styles.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_arch/constants/colors.dart';
-import 'package:flutter_arch/constants/fonts.dart';
-import 'package:flutter_arch/di.dart';
-import 'package:flutter_arch/helpers/dimension_helper.dart';
-import 'package:flutter_arch/models/dummy/dimension.dart';
-import 'package:flutter_arch/utils/default_config.dart';
-import 'package:flutter_arch/utils/size_config.dart';
-import 'package:flutter_arch/utils/text_styles.dart';
 
 ThemeData get lightThemeData {
   return ThemeData(
